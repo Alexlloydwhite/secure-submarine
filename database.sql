@@ -11,7 +11,8 @@ CREATE TABLE "user" (
 );
 
 INSERT INTO "user" ("username", "password", "clearance_level")
-VALUES ('Admiral Greer', 'tuna', 18),
+VALUES 
+('Admiral Greer', 'tuna', 18),
 ('Captain Borodin', 'shark', 10),
 ('Lieutenant Nguyen', 'fishy', 4),
 ('Lieutenant Ryan', 'tuna', 4);
@@ -24,7 +25,8 @@ CREATE TABLE "secret" (
 );
 
 INSERT INTO "secret" ("content", "secrecy_level")
-VALUES ('Admirals Only: Captain Borodin is totally weird.', 13),
+VALUES 
+('Admirals Only: Captain Borodin is totally weird.', 13),
 ('Captains Or Above: Lieutenant Ryan is looking fly.', 6),
 ('Lieutenants Or Above: We are heading to the Bahamas.', 3);
 
